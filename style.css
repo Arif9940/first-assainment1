@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* this is hearder part start */
+header{
+    
+    background-image: url(/images/banner/banner1.png);
+    background-size: 989px 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.container{
+    margin-left: 150px;
+    margin-right: 150px;
+    background-color: rgb(250, 243, 238);
+}
+.content{
+    text-align: right;
+    margin-top: 0px;
+    padding-right: 150px;
+    padding-top: 200px;
+    padding-bottom: 80px;
+}
+.content h1{
+    padding: 10px;
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content p{
+    padding: 5px;
+    font-size: 12px;
+    font-family: sans-serif;
+    font-weight: 100;
+    color: rgb(59, 60, 60);
+}
+.contact{
+    padding: 10px 10px 10px 10px;
+    background-color: rgb(247, 78, 17);
+    border: 0px;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+}
+/* this is hearder part end */
+/* person section  start*/
+.section-1{
+    display: flex;
+    gap: 100px;
+    padding: 130px 130px 40px 40px;
+}
+.pic img{
+    background-color: blanchedalmond;
+    border-radius: 50%;
+    width: 400px;
+}
+.year{
+    margin-top: 120px;
+    padding: 10px;
+}
+.year h1{
+    padding: 10px;
+    font-size: 26px;
+    font-family: serif;
+}
+.year p{
+    padding: 10px;
+    font-weight: 100;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(26, 26, 26);
+
+}
+ul.list{
+    list-style-type: circle;
+    color: rgb(26, 26, 26);
+}
+.list li{
+    padding: 5px;
+}
+/* person section  end*/
+/* my plan part start */
+.section-3 h1{
+    text-align: center;
+}
+.items{
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+.box{
+    display: block;
+    padding: 10px;
+}
+.box img{
+    padding-left: 15%;
+   align-self: center;
+   justify-self: center;
+}
+.box h2{
+    text-align: center;
+    font-weight: bold;
+    text-align: center;
+}
+.box h4{
+    color: rgb(134, 147, 157);
+    text-align: center;
+}
+/* my plan part end*/
+/* gredinat part start */
+.watch{
+    background-image: url(/images/watch.png);
+    background-size: 700px 250px;
+    background-repeat: no-repeat;
+    background-position: center; 
+    padding: 50px;
+    text-align: left; 
+    background-image: linear-gradient(to left, rgba(255,0,0,.1), rgba(255,0,0,1));
+    
+}
+.watch h1{
+    padding-left: 120px;
+    color: white;
+    font-size: 28px;
+}
+
+.call{
+    margin-left: 120px;
+    margin-top: 10px;
+    padding: 10px;
+    color: rgb(247, 78, 17);
+}
+/* gradient part end */
+/* form part start */
+.massage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    margin: 10px;
+}
+
+
+.form{
+    display: flex;
+    gap: 30px;
+    
+    justify-content: center;
+    align-items: center;
+}
+#textarea{
+    display: flex;
+    flex-direction: column;
+    width: 605px;
+    padding: 5px;
+    margin: 5px;
+}
+/* footer part start */
+.foot{
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 80px;
+    margin-top: 120px;
+}
+.box-1 h2{
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.box-1 p{
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    font-weight: 100;
+    color: rgb(185, 188, 190);
+}
+.box-1 a{
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: rgb(185, 188, 190);
+}
+.box-1 h5{
+    margin-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    color: rgb(185, 188, 190);
+}
+.box-1 img{
+    width: 20px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+.box-2 h3{
+    padding: 10px 10px 10px 0px;
+    margin: 10px 10px 10px 0px;
+}
+.email{
+    padding: 10px 10px 10px 0px;
+    margin: 10px 10px 10px 0px;
+    background-color: black;
+    border: 1px solid white;
+}
+.submit{
+    padding: 10px 15px 10px 10px;
+    margin: 10px 15px 10px 0px;
+    color: rgb(247, 78, 17);
+    text-align: center;
+    border-radius: 5px;
+}
+/* footer part end */
